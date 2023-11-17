@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add To Do</title>
+    <link rel="stylesheet" href="./styles.css"></link>
+</head>
+<body>
+    <header>
+        <h1>To Do</h1>
+    </header>
+    <main>
+        <a href="../index/index.html">←</a>
+        <form>
+            <div class="info-block">
+                <label for="task">Task</label>
+                <input type="text" id="task"/>
+            </div>
+
+            <div class="info-block">
+                <label for="description">Description</label>
+                <textarea id="description"></textarea>
+            </div>
+
+            <div class="info-block">
+                <label for="deadline">Deadline</label>
+                <input type="date" id="deadline"/>
+            </div>
+
+            <div class="info-block">
+                <label for="priority">Priority</label>
+                <select id="priority">
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+            </div>
+
+            <div class="info-block">
+                <input type="submit" id="add-todo-button" value="Add"/>
+            </div>
+        </form>
+    </main>
+    <footer>Created by Polina Ovchinnikova</footer>
+    <script src="./todo.js" type="module"></script>
+</body>
+</html>

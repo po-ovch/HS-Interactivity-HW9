@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#page {
+    padding: 20px;
+    background: linear-gradient(#bf81b6, #754ae0);
+    min-height: 500px;
+}
+
+header {
+    height: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+a {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: greenyellow;
+    text-align: center;
+    padding-top: 13px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.todo {
+    width: 400px;
+    border: 1px solid black;
+    background: beige;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.todo h3 {
+    text-align: center;
+}
+
+.todo p {
+    margin-top: 10px;
+}
+
+footer {
+    height: 25px;
+    background-color: black;
+    color: grey;
+}
